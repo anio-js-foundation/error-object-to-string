@@ -1,4 +1,4 @@
-import errorObjectToString from "./index.mjs"
+import errorObjectToString from "./src/index.mjs"
 
 try {
 	throw new Error("oops!")

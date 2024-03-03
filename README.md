@@ -1,9 +1,8 @@
-# @anio-js-core-foundation/error-object-to-string
-
+# @anio-js-foundation/error-object-to-string
 
 
 ```js
-import errorObjectToString from "@anio-js-core-foundation/error-object-to-string"
+import errorObjectToString from "@anio-js-foundation/error-object-to-string"
 
 try {
 	throw new Error("oops!")

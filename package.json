@@ -1,12 +1,21 @@
 {
-  "name": "@anio-js-core-foundation/error-object-to-string",
+  "name": "@anio-js-foundation/error-object-to-string",
   "version": "1.0.0",
   "description": "Convert error object to string.",
-  "main": "index.mjs",
+  "main": "./dist/package.mjs",
   "author": "Anio Software <info@anio.software>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anio-js-core-foundation/error-object-to-string.git"
-  }
+    "url": "git+https://github.com/anio-js-foundation/error-object-to-string.git"
+  },
+  "devDependencies": {
+    "@anio-software/npm-package-bundler": "^1.0.0"
+  },
+  "scripts": {
+    "prepare": "./node_modules/.bin/npm-package-bundler ."
+  },
+  "files": [
+    "./dist/package.mjs"
+  ]
 }
